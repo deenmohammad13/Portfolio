@@ -1,0 +1,78 @@
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.nav-logo{
+    text-align: left;
+}
+.nav-head h1{
+    text-align: right;
+    margin-top: 20px;
+}
+.nav-menu{
+    padding-left: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+.nav-menu a{
+    margin: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+/*about section*/
+
+.about{
+    text-align: center;
+}
+.about-head{
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.about-body{
+    display: flex;
+    flex-direction: row;
+}
+.pic img{
+    margin-top: 30px;
+    height: 350px;
+    width: 300px;
+}
+
+#line{
+    margin-left: 100px;
+    width: 1px;
+    height: 450px;
+    border: 1px solid white;  
+}
+/* work exp education skills*/
+
+/*contact section*/
+.contact-right{
+    position: relative;
+}
+.contact-link{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    margin-top: 200px;
+}
+.contact-link button{
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
